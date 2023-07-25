@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Resultados";
+}
+
+<div class="jumbotron">
+    <form asp-controller="Home" asp-action="Index">
+         <div class="col-md-15 text-center">
+            <h1 class="display-4">Resultados</h1>
+        </div>
+        <hr/>
+        <divc class="col-md-15 text-center">
+            <h3>Su puntaje es:</h3>
+            <h3>@ViewData["Puntaje"]</h3>
+        </divc>
+
+        <hr/>
+
+        <div class="col-md-15 text-center">
+            <input type="submit" value="Terminar prueba" class="btn btn-primary" />
+        </div>
+    </form>
+
+    
+</div>
+
+

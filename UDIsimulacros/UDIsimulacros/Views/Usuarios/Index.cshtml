@@ -1,0 +1,113 @@
+﻿@model IEnumerable<UDIsimulacros.models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NumeroDocumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreCompleto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Correo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contraseña)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumeroCelular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Semestre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NivelIngles)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NivelLectura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NivelCuantitativo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NivelCiudadanas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NivelEscrita)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCarreraNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroDocumento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCompleto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Correo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contraseña)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroCelular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Semestre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NivelIngles)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NivelLectura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NivelCuantitativo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NivelCiudadanas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NivelEscrita)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCarreraNavigation.Nombre)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idusuario">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Idusuario">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idusuario">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

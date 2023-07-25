@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "RespuestaIncorrecta";
+}
+
+<div class="jumbotron">
+    <div class="col-md-15 text-center">
+        <h1 class="display-4">Respuesta Incorrecta :(</h1>
+        <p class="text-primary">Sigue aprendiendo</p>
+    </div>
+
+    <form asp-controller="Cuestionario" asp-action="seguirPrueba">
+        <div class="col-md-15 text-right">
+        <input type="submit" value="Siguiente pregunta" class="btn btn-primary" />
+        </div>
+    </form>
+
+</div>

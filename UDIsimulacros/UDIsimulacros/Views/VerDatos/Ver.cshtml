@@ -1,0 +1,67 @@
+﻿@model UDIsimulacros.models.Usuario
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+
+
+<div class="form-group">
+    <div class="col-md-15 text-center">
+        <h1>Perfil</h1>
+    </div>
+
+    <hr />
+    <dl class="row">
+        <dt class="col-md-15 text-center">
+            @Html.DisplayNameFor(model => model.NumeroDocumento)
+        </dt>
+        <dd class="col-md-15 text-center">
+            @Html.DisplayFor(model => model.NumeroDocumento)
+        </dd>
+        <dt class="col-md-15 text-center">
+            @Html.DisplayNameFor(model => model.NombreCompleto)
+        </dt>
+        <dd class="col-md-15 text-center">
+            @Html.DisplayFor(model => model.NombreCompleto)
+        </dd>
+        <dt class="col-md-15 text-center">
+            @Html.DisplayNameFor(model => model.Correo)
+        </dt>
+        <dd class="col-md-15 text-center">
+            @Html.DisplayFor(model => model.Correo)
+        </dd>
+        <dt class="col-md-15 text-center">
+            @Html.DisplayNameFor(model => model.Rol)
+        </dt>
+        <dd class="col-md-15 text-center">
+            @Html.DisplayFor(model => model.Rol)
+        </dd>
+        <dt class="col-md-15 text-center">
+            @Html.DisplayNameFor(model => model.NumeroCelular)
+        </dt>
+        <dd class="col-md-15 text-center">
+            @Html.DisplayFor(model => model.NumeroCelular)
+        </dd>
+        <dt class="col-md-15 text-center">
+            @Html.DisplayNameFor(model => model.Semestre)
+        </dt>
+        <dd class="col-md-15 text-center">
+            @Html.DisplayFor(model => model.Semestre)
+        </dd>
+        <dt class="col-md-15 text-center">
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd class="col-md-15 text-center">
+            @Html.DisplayFor(model => model.Estado)
+        </dd>
+        <dt class="col-md-15 text-center">
+            @Html.DisplayNameFor(model => model.IdCarreraNavigation)
+        </dt>
+        <dd class="col-md-15 text-center">
+            @Html.DisplayFor(model => model.IdCarreraNavigation.Idcarrera)
+        </dd>
+    </dl>
+</div>
+
+

@@ -1,0 +1,40 @@
+﻿@model Categoria
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<div class="form-group">
+    <div class="col-md-15 text-center">
+        <h1>Seleccion</h1>
+    </div>
+    
+    <div class="col-md-15 text-center">
+        <!-- <a asp-action="IniciarPrueba" value="Lectura critica" class="btn btn-primary">Lectura critica</a> -->
+        @Html.ActionLink("Lectura critica", "IniciarPrueba", new{seleccion = "Lectura critica"})
+    </div>
+
+    <div class="col-md-15 text-center">
+        @Html.ActionLink("Razonamiento cuantitativo", "IniciarPrueba", new{seleccion = "Razonamiento cuantitativo"})
+    </div>
+
+    <div class="col-md-15 text-center">
+        @Html.ActionLink("Competencias ciudadanas", "IniciarPrueba", new{seleccion = "Competencias ciudadanas"})
+    </div>
+
+    <div class="col-md-15 text-center">
+        @Html.ActionLink("Inglés", "IniciarPrueba", new{seleccion = "Ingles"})
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    
+    
+    

@@ -1,0 +1,218 @@
+﻿@using Microsoft.AspNetCore.Identity  
+
+<!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-3" style="hide">
+
+        <!-- Brand Logo -->
+        <a href="index3.html" class="brand-link">
+          <img src="~/adminlte/dist/img/UDI.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+               style="opacity: .8">
+          <span class="brand-text font-weight-light">Simulacros UDI</span>
+        </a>
+
+        <!-- Sidebar -->
+        <div class="sidebar" style="hide">
+          <!-- Indicador de tipo de usuario para administrador -->
+
+            @if (User.IsInRole("Administrador"))
+            {
+              <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                <div class="image">
+                      <img src="~/adminlte/dist/img/Administrador.png" class="img-circle elevation-2" alt="User Image">
+                </div>
+                <div class="info">
+                  <a href="#" class="d-block">Administrador</a>
+                </div>
+              </div>
+            }
+
+            <!-- Indicador de tipo de usuario para Estudiante -->
+            @if (User.IsInRole("Estudiante"))
+            {
+              <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                <div class="image">
+                      <img src="~/adminlte/dist/img/Estudiante.png" class="img-circle elevation-2" alt="User Image">
+                </div>
+                <div class="info">
+                  <a href="#" class="d-block">Estudiante</a>
+                </div>
+              </div>
+            }
+
+            <!-- Indicador de tipo de usuario para Auditor -->
+            @if (User.IsInRole("Auditor"))
+            {
+              <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                <div class="image">
+                  <img src="~/adminlte/dist/img/Auditor.jpg" class="img-circle elevation-2" alt="User Image">
+                </div>
+                <div class="info">
+                  <a href="#" class="d-block">Auditor</a>
+                </div>
+              </div>
+            }
+
+          <!-- Sidebar Menu -->
+          <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+              <!-- Add icons to the links using the .nav-icon class
+                   with font-awesome or any other icon font library --> 
+
+                   <!--Boton para ver perfil-->
+                   <li class="nav-item">
+                         <a class="nav-link" asp-area="" asp-controller="VerDatos" asp-action="Ver">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Ver perfil</p>
+                        </a>
+                      </li>
+
+
+              @if (User.IsInRole("Estudiante")){
+                  <li class="nav-item">
+                         <a class="nav-link" asp-area="" asp-controller="Cuestionario" asp-action="Index">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Simulacro</p>
+                        </a>
+                  </li>
+              }
+
+                   <!--Condicional para solo mostrar estas opciones a los administradores dentro de la pagina-->
+              @if(User.IsInRole("Administrador")){
+              
+                  <!--menu desplegable y botones para el CRUD de los usuarios-->
+                  <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link active">
+                      <i class="nav-icon fas fa-tachometer-alt"></i>
+                      <p>
+                        Usuarios
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Create">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Crear Usuario</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Index">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Gestionar Usuarios</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+
+                  <!--menu desplegable y botones para el CRUD de las preguntas-->
+                  <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link active">
+                      <i class="nav-icon fas fa-tachometer-alt"></i>
+                      <p>
+                        Preguntas
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Preguntums" asp-action="Create">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Crear Pregunta</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Preguntums" asp-action="Index">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Gestionar preguntas</p>
+                        </a>
+                      </li>
+                  
+                    </ul>
+                  </li>
+
+                  <!--menu desplegable y botones para el CRUD de las carreras-->
+                  <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link active">
+                      <i class="nav-icon fas fa-tachometer-alt"></i>
+                      <p>
+                        Carreras
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Carreras" asp-action="Create">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Crear Carreras</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link"  asp-area="" asp-controller="Carreras" asp-action="Index">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Gestionar Carreras</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+
+                  <!--menu desplegable y botones para el CRUD de las facultades-->
+                  <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link active">
+                      <i class="nav-icon fas fa-tachometer-alt"></i>
+                      <p>
+                        Facultades
+                        <i class="right fas fa-angle-left"></i>
+                      </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Facultads" asp-action="Create">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Crear Facultades</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Facultads" asp-action="Index">
+                          <i class="far fa-circle nav-icon"></i>
+                          <p>Gestionar Facultades</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+              }
+              
+                @if (User.IsInRole("Estudiante"))
+                {
+                  <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Estadisticas" asp-action="EstadisticasEstudiante" >
+                      <i class="nav-icon fas fa-th"></i>
+                      <p>
+                        Estadisticas
+                        <span class="right badge badge-danger">New</span>
+                      </p>
+                    </a>
+                  </li>
+                }
+
+                @if (User.IsInRole("Administrador"))
+                {
+                  <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Estadisticas" asp-action="seleccionEstudiante" >
+                      <i class="nav-icon fas fa-th"></i>
+                      <p>
+                        Estadisticas
+                        <span class="right badge badge-danger">New</span>
+                      </p>
+                    </a>
+                  </li>
+                }
+                
+            </ul>
+          </nav>
+          <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+
+  </aside>

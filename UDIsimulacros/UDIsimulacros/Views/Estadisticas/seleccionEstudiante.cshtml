@@ -1,0 +1,21 @@
+﻿@model Correo;
+
+@{
+    ViewData["Title"] = "seleccionEstudiante";
+}
+
+<h1>seleccione un Estudiante</h1>
+
+<form asp-controller="Estadisticas" asp-action="estadisticasSeleccionadas" method="post">
+
+    <div class="mb-3">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" asp-for="correo">
+        </div>
+
+        <button type="submit" class="btn btn-info">Consultar</button>
+    </div>
+ 
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</form>

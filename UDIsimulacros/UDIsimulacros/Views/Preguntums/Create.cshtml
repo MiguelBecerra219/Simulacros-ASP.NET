@@ -1,0 +1,63 @@
+﻿@model UDIsimulacros.models.Preguntum
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Preguntum</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NivelDeDificultad" class="control-label"></label>
+                <input asp-for="NivelDeDificultad" class="form-control" />
+                <span asp-validation-for="NivelDeDificultad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Categoria" class="control-label"></label>
+                <input asp-for="Categoria" class="form-control" />
+                <span asp-validation-for="Categoria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RespuestaUno" class="control-label"></label>
+                <input asp-for="RespuestaUno" class="form-control" />
+                <span asp-validation-for="RespuestaUno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RespuestaDos" class="control-label"></label>
+                <input asp-for="RespuestaDos" class="form-control" />
+                <span asp-validation-for="RespuestaDos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RespuestaTres" class="control-label"></label>
+                <input asp-for="RespuestaTres" class="form-control" />
+                <span asp-validation-for="RespuestaTres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RespuestaCorrecta" class="control-label"></label>
+                <input asp-for="RespuestaCorrecta" class="form-control" />
+                <span asp-validation-for="RespuestaCorrecta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

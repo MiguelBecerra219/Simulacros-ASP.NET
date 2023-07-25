@@ -1,0 +1,197 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UDIsimulacros
+build_property.RootNamespace = UDIsimulacros
+build_property.ProjectDir = D:\c#\UDIsimulacros\UDIsimulacros\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\c#\UDIsimulacros\UDIsimulacros
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Acceso/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Acceso/verPerfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXHZlclBlcmZpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Carreras/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Carreras/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Carreras/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Carreras/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Carreras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Cuestionario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Cuestionario/IniciarPrueba.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXEluaWNpYXJQcnVlYmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Cuestionario/Respuesta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXFJlc3B1ZXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Cuestionario/RespuestaCorrecta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXFJlc3B1ZXN0YUNvcnJlY3RhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Cuestionario/RespuestaIncorrecta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXFJlc3B1ZXN0YUluY29ycmVjdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Cuestionario/Resultados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXFJlc3VsdGFkb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Cuestionario/seguirPrueba.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXHNlZ3VpclBydWViYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Cuestionario/Seleccion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vlc3Rpb25hcmlvXFNlbGVjY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Estadisticas/EstadisticasEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRpc3RpY2FzXEVzdGFkaXN0aWNhc0VzdHVkaWFudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Estadisticas/estadisticasSeleccionadas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRpc3RpY2FzXGVzdGFkaXN0aWNhc1NlbGVjY2lvbmFkYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Estadisticas/seleccionEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRpc3RpY2FzXHNlbGVjY2lvbkVzdHVkaWFudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Facultads/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0YWRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Facultads/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0YWRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Facultads/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0YWRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Facultads/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0YWRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Facultads/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0YWRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Preguntums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ3VudHVtc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Preguntums/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ3VudHVtc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Preguntums/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ3VudHVtc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Preguntums/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ3VudHVtc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Preguntums/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZ3VudHVtc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/VerDatos/Ver.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyRGF0b3NcVmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/UDIsimulacros/UDIsimulacros/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9w4ggi7qe3

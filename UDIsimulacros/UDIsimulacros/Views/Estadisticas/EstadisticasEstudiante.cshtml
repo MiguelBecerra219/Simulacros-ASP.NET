@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "EstadisticasEstudiante";
+}
+
+
+
+<div class="jumbotron">
+    <div class="col-md-15 text-center">
+        <h1>Estadisticas</h1>
+    </div>
+
+    <div class="col-md-15 text-center">
+        <h2>Su promedio en lectura critica es</h2>
+        <h3>@ViewData["promedioLecura"]</h3>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style=@ViewData["porcentajeLecura"] aria-valuenow=@ViewData["promedioLecura"] aria-valuemin="0" aria-valuemax="10"></div>
+        </div>
+    </div>
+    <hr/>
+    <div class="col-md-15 text-center">
+        <h2>Su promedio en razonamiento cuantitativo es</h2>
+        <h3>@ViewData["promedioRazonamiento"]</h3>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style=@ViewData["porcentajeRazonamiento"] aria-valuenow=@ViewData["promedioRazonamiento"] aria-valuemin="0" aria-valuemax="10"></div>
+        </div>
+    </div>
+    <hr/>
+    <div class="col-md-15 text-center">
+        <h2>Su promedio en competencias ciudadanas es</h2>
+        <h3>@ViewData["promedioCompetencias"]</h3>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style=@ViewData["porcentajeCompetencias"] aria-valuenow=@ViewData["promedioLecura"] aria-valuemin="0" aria-valuemax="10"></div>
+        </div>
+    </div>
+    <hr/>
+    <div class="col-md-15 text-center">
+        <h2>Su promedio en ingles es</h2>
+        <h3>@ViewData["promedioIngles"]</h3>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style=@ViewData["porcentajeIngles"] aria-valuenow=@ViewData["promedioIngles"] aria-valuemin="0" aria-valuemax="10"></div>
+        </div>
+    </div>
+</div>

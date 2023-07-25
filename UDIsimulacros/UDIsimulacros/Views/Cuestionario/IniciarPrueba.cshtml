@@ -1,0 +1,50 @@
+﻿@model UDIsimulacros.models.Preguntum
+
+
+@{
+    ViewData["Title"] = "Prueba";
+}
+
+<form asp-controller="Cuestionario" asp-action="Respuesta" method="post">
+    <div class="col-md-15 text-center">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style=@ViewData["porcentaje"] aria-valuenow=@ViewData["Avance"] aria-valuemin="0" aria-valuemax="9"></div>
+        </div>
+        <h1>@Html.DisplayFor(model => model.Categoria)</h1>
+        <h4>Pregunta</h4>
+        <hr />
+        <dl class="row">
+            <p>@Html.DisplayFor(model => model.Descripcion)</p>
+        </dl>
+        <hr />
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+          <label class="form-check-label" for="exampleRadios1">
+                <p>@Html.DisplayFor(model => model.RespuestaCorrecta)</p>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+                 <p>@Html.DisplayFor(model => model.RespuestaUno)</p>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+          <label class="form-check-label" for="exampleRadios3">
+                <p>@Html.DisplayFor(model => model.RespuestaDos)</p>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+          <label class="form-check-label" for="exampleRadios4">
+                <p>@Html.DisplayFor(model => model.RespuestaTres)</p>
+          </label>
+        </div>
+        <div class="col-md-15 text-right">
+            <input type="submit" value="Siguiente" class="btn btn-primary" />
+        </div>
+    
+
+    </div>
+</form>

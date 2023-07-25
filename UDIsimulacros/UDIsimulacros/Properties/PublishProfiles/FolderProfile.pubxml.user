@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\c#\UDIsimulacros\UDIsimulacros\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-06-06T21:53:32.5495857Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="conexion">
+      <Value>server=127.0.0.1%3b port=3306%3b database=dbsimulacrosudi%3b uid=root%3b password=6053769Ma</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="UDIsimulacros.models.DbsimulacrosudiContext">
+      <Value>server=127.0.0.1%3b port=3306%3b database=dbsimulacrosudi%3b uid=root%3b password=6053769Ma</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
